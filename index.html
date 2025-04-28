@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moi Music</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="galaxy-bg"></div>
+  <div class="stars" id="stars"></div>
+  <header class="text-center py-12">
+    <h1 class="text-6xl font-bold glow-red fade-in">Moi Music</h1>
+    <p class="mt-4 text-xl fade-in" style="animation-delay: 0.5s;">Cảm Nhận Tốc Độ Âm Thanh – Phong Cách Đỏ Công Thức 1</p>
+    <button class="btn-play mt-6 px-6 py-3 rounded-lg text-lg font-semibold wave">Bắt Đầu Nghe</button>
+  </header>
+
+  <!-- Phần Danh Sách Phát Nổi Bật -->
+  <section class="container mx-auto py-16 px-4">
+    <h2 class="text-4xl font-bold text-center glow-red fade-in">Danh Sách Phát Nổi Bật</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+      <div class="card p-6 rounded-lg fade-in">
+        <img src="https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Album 1" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h3 class="text-2xl font-semibold glow-red">Nhịp Đập Vũ Trụ</h3>
+        <p class="mt-2">Các bản nhạc năng lượng cao lấy cảm hứng từ tốc độ của các cuộc đua Công Thức 1, lý tưởng cho những người yêu cảm giác mạnh.</p>
+        <button class="btn-play mt-4 px-4 py-2 rounded-lg text-sm font-semibold wave">Phát Ngay</button>
+      </div>
+      <div class="card p-6 rounded-lg fade-in" style="animation-delay: 0.3s;">
+        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Album 2" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h3 class="text-2xl font-semibold glow-red">Tinh Vân Đỏ</h3>
+        <p class="mt-2">Một hỗn hợp giai điệu ngân hà rực lửa với phong cách đua xe, khơi dậy đam mê của bạn.</p>
+        <button class="btn-play mt-4 px-4 py-2 rounded-lg text-sm font-semibold wave">Phát Ngay</button>
+      </div>
+      <div class="card p-6 rounded-lg fade-in" style="animation-delay: 0.6s;">
+        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Album 3" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h3 class="text-2xl font-semibold glow-red">Tay Lái Ngôi Sao</h3>
+        <p class="mt-2">Những nhịp điệu mạnh mẽ để đồng hành cùng hành trình vũ trụ của bạn với tốc độ tối đa.</p>
+        <button class="btn-play mt-4 px-4 py-2 rounded-lg text-sm font-semibold wave">Phát Ngay</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Phần Tính Năng -->
+  <section class="container mx-auto py-16 px-4 bg-opacity-10 bg-gray-900">
+    <h2 class="text-4xl font-bold text-center glow-red fade-in">Tại Sao Chọn Moi Music?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+      <div class="feature-card p-6 rounded-lg text-center fade-in">
+        <h3 class="text-2xl font-semibold glow-red">Âm Thanh Chất Lượng Cao</h3>
+        <p class="mt-2">Phát nhạc với chất lượng không nén, lên đến 320kbps để có trải nghiệm đắm chìm.</p>
+      </div>
+      <div class="feature-card p-6 rounded-lg text-center fade-in" style="animation-delay: 0.3s;">
+        <h3 class="text-2xl font-semibold glow-red">Danh Sách Phát Cá Nhân Hóa</h3>
+        <p class="mt-2">Danh sách phát được AI tùy chỉnh theo sở thích của bạn, dựa trên thói quen nghe nhạc.</p>
+      </div>
+      <div class="feature-card p-6 rounded-lg text-center fade-in" style="animation-delay: 0.6s;">
+        <h3 class="text-2xl font-semibold glow-red">Chế Độ Ngoại Tuyến</h3>
+        <p class="mt-2">Tải xuống các bài hát yêu thích và nghe ở bất kỳ đâu, ngay cả khi không có kết nối internet.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Phần Gói Giá -->
+  <section class="container mx-auto py-16 px-4">
+    <h2 class="text-4xl font-bold text-center glow-red fade-in">Chọn Gói Phù Hợp Với Bạn</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+      <div class="plan-card p-6 rounded-lg text-center fade-in">
+        <h3 class="text-2xl font-semibold glow-red">Gói Miễn Phí</h3>
+        <p class="mt-2 text-3xl font-bold text-red-500">0 VNĐ/tháng</p>
+        <p class="mt-2">Truy cập cơ bản với quảng cáo, lượt bỏ qua giới hạn và phát trực tuyến trực tuyến.</p>
+        <button class="btn-subscribe mt-4 px-4 py-2 rounded-lg text-sm font-semibold">Bắt Đầu</button>
+      </div>
+      <div class="plan-card p-6 rounded-lg text-center fade-in" style="animation-delay: 0.3s;">
+        <h3 class="text-2xl font-semibold glow-red">Gói Pro</h3>
+        <p class="mt-2 text-3xl font-bold text-red-500">229.000 VNĐ/tháng</p>
+        <p class="mt-2">Phát nhạc không quảng cáo, bỏ qua không giới hạn và chế độ ngoại tuyến.</p>
+        <button class="btn-subscribe mt-4 px-4 py-2 rounded-lg text-sm font-semibold">Đăng Ký Ngay</button>
+      </div>
+      <div class="plan-card p-6 rounded-lg text-center fade-in" style="animation-delay: 0.6s;">
+        <h3 class="text-2xl font-semibold glow-red">Gói Gia Đình</h3>
+        <p class="mt-2 text-3xl font-bold text-red-500">349.000 VNĐ/tháng</p>
+        <p class="mt-2">Hỗ trợ tối đa 5 tài khoản, không quảng cáo, chế độ ngoại tuyến và danh sách phát chia sẻ.</p>
+        <button class="btn-subscribe mt-4 px-4 py-2 rounded-lg text-sm font-semibold">Đăng Ký Ngay</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Phần Đánh Giá Khách Hàng -->
+  <section class="container mx-auto py-16 px-4 bg-opacity-10 bg-gray-900">
+    <h2 class="text-4xl font-bold text-center glow-red fade-in">Khách Hàng Nói Gì Về Chúng Tôi</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+      <div class="testimonial-card p-6 rounded-lg fade-in">
+        <p class="mt-2 italic">"Chất lượng âm thanh thật không thể tin được! Tôi cảm giác như đang đua qua dải ngân hà với mỗi nhịp nhạc."</p>
+        <p class="mt-4 font-semibold text-red-500">– Anh Alex</p>
+      </div>
+      <div class="testimonial-card p-6 rounded-lg fade-in" style="animation-delay: 0.3s;">
+        <p class="mt-2 italic">"Danh sách phát rất đúng ý tôi, và chế độ ngoại tuyến thật sự hữu ích cho những chuyến đi dài."</p>
+        <p class="mt-4 font-semibold text-red-500">– Chị Mia</p>
+      </div>
+      <div class="testimonial-card p-6 rounded-lg fade-in" style="animation-delay: 0.6s;">
+        <p class="mt-2 italic">"Ứng dụng nghe nhạc tuyệt nhất từ trước đến nay! Chủ đề Đỏ Công Thức 1 khiến tôi rất hào hứng khi sử dụng."</p>
+        <p class="mt-4 font-semibold text-red-500">– Anh Jay</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Phần Chân Trang -->
+  <footer class="py-12 px-4 bg-opacity-20 bg-gray-900">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div class="fade-in">
+        <h3 class="text-2xl font-semibold glow-red">Moi Music</h3>
+        <p class="mt-2">Nền tảng phát nhạc tối ưu của bạn với phong cách ngân hà độc đáo.</p>
+      </div>
+      <div class="fade-in" style="animation-delay: 0.3s;">
+        <h3 class="text-xl font-semibold">Liên Kết Nhanh</h3>
+        <ul class="mt-2 space-y-2">
+          <li><a href="#" class="footer-link">Trang Chủ</a></li>
+          <li><a href="#" class="footer-link">Danh Sách Phát</a></li>
+          <li><a href="#" class="footer-link">Gói Giá</a></li>
+          <li><a href="#" class="footer-link">Liên Hệ</a></li>
+        </ul>
+      </div>
+      <div class="fade-in" style="animation-delay: 0.6s;">
+        <h3 class="text-xl font-semibold">Hỗ Trợ</h3>
+        <ul class="mt-2 space-y-2">
+          <li><a href="#" class="footer-link">Câu Hỏi Thường Gặp</a></li>
+          <li><a href="#" class="footer-link">Điều Khoản Dịch Vụ</a></li>
+          <li><a href="#" class="footer-link">Chính Sách Bảo Mật</a></li>
+          <li><a href="#" class="footer-link">Trung Tâm Hỗ Trợ</a></li>
+        </ul>
+      </div>
+      <div class="fade-in" style="animation-delay: 0.9s;">
+        <h3 class="text-xl font-semibold">Kết Nối Với Chúng Tôi</h3>
+        <ul class="mt-2 space-y-2">
+          <li><a href="#" class="footer-link">Facebook</a></li>
+          <li><a href="#" class="footer-link">Twitter</a></li>
+          <li><a href="#" class="footer-link">Instagram</a></li>
+          <li><a href="#" class="footer-link">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="text-center mt-8 text-sm fade-in">© 2025 Moi Music. Mọi Quyền Được Bảo Lưu.</p>
+  </footer>
+
+  <script>
+    const starsContainer = document.getElementById('stars');
+    for (let i = 0; i < 100; i++) {
+      const star = document.createElement('div');
+      star.classList.add('star');
+      star.style.width = `${Math.random() * 3}px`;
+      star.style.height = star.style.width;
+      star.style.left = `${Math.random() * 100}%`;
+      star.style.top = `${Math.random() * 100}%`;
+      star.style.animationDelay = `${Math.random() * 3}s`;
+      starsContainer.appendChild(star);
+    }
+  </script>
+</body>
+</html>
